@@ -24,7 +24,12 @@ const Tile  = React.forwardRef((props, ref) => {
 
   return (
       <Main>
-         <h1>{date.toLocaleString()}</h1>
+        {
+          props.width > 2 ?
+            <h1>{date.toLocaleString()}</h1>
+          :
+            <h1>{date.toLocaleTimeString()}</h1>
+        }
       </Main>
   );
 });

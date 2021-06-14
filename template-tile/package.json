@@ -1,5 +1,5 @@
 {
-  "name": "@homedash/clock_tile",
+  "name": "@homedash/template_tile",
   "version": "0.0.0",
   "private": true,
   "devDependencies": {

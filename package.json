@@ -1,0 +1,7 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "plugin template for homedash",
+  "main": "index.js",
+  "license": "MIT"
+}
